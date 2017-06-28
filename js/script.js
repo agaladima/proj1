@@ -39,7 +39,8 @@ var quotes = [
 ];
 
 function getRandomQuote() {
-  var randNum = Math.floor(Math.random() * 4) + 1;
+  var randNum = Math.floor(Math.random() * 5);
+  //console.log(randNum);
   for (var i = 0; i < quotes.length; i++) {
     quote = quotes[randNum];
     quoteStore.push(quote);
